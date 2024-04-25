@@ -422,7 +422,11 @@
         "__resolveType": "Neutral"
       }
     ],
-    "__resolveType": "website/pages/Page.tsx"
+    "__resolveType": "website/pages/Page.tsx",
+    "seo": {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "type": "website"
+    }
   },
   "site": {
     "seo": {
@@ -430,7 +434,7 @@
       "jsonLDs": [],
       "noIndexing": true,
       "titleTemplate": "Jujutsu Leo Kaisen",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/f5603dbc-ee36-4864-aaf3-ea52b257d5b2",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8141/277cec32-4ddb-4333-b9a9-3566d2c793ad",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8141/b81150a2-bf29-4e32-a254-d8e17fab88d0",
       "themeColor": "black",
       "title": "Jujutsu leandro",
