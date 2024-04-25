@@ -1,39 +1,35 @@
-import type { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
-import Icon from "../components/ui/Icon.tsx";
 
-export interface CTA {
-  id?: string;
-  href: string;
-  text: string;
-  outline?: boolean;
-}
-
-export interface Nav {
+interface FancyGreenComponentProps {
+  /**
+  * @description The source of the logo.
+  */
   logo?: {
-    src?: ImageWidget;
-    alt?: string;
+    src: string;
+    alt: string;
   };
+  /**
+  * @description The navigation links and buttons.
+  */
   navigation?: {
     links: {
-      label?: string;
-      url?: string;
+      label: string;
+      url: string;
     }[];
     buttons: CTA[];
   };
 }
 
-export default function Header({
+export default function FancyGreenComponent({
   logo = {
     src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/67120bcd-936a-4ea5-a760-02ed5c4a3d04",
+      "https://your-image-source.jpg",
     alt: "Logo",
   },
   navigation = {
     links: [
       { label: "Home", url: "/" },
       { label: "About us", url: "/" },
-      { label: "Princing", url: "/" },
+      { label: "Pricing", url: "/" },
       { label: "Contact", url: "/" },
     ],
     buttons: [
@@ -41,9 +37,9 @@ export default function Header({
       { id: "change-me-2", href: "/", text: "Change me", outline: true },
     ],
   },
-}: Nav) {
+}: FancyGreenComponentProps) {
   return (
-    <nav class="drawer drawer-end">
+    <nav class="drawer drawer-end bg-green-500">
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
       {/* main content */}
@@ -69,15 +65,15 @@ export default function Header({
           <ul class="flex gap-3">
             {navigation.buttons?.map((item) => (
               <a
-                key={item?.id}
-                id={item?.id}
-                href={item?.href ?? "#"}
-                target={item?.href.includes("http") ? "_blank" : "_self"}
+                key={item.id}
+                id={item.id}
+                href={item.href ?? "#"}
+                target={item.href.includes("http") ? "_blank" : "_self"}
                 class={`font-normal btn btn-primary ${
                   item.outline && "btn-outline"
                 }`}
               >
-                {item?.text}
+                {item.text}
               </a>
             ))}
           </ul>
@@ -123,15 +119,15 @@ export default function Header({
           <ul class="p-4 flex items-center gap-3">
             {navigation.buttons?.map((item) => (
               <a
-                key={item?.id}
-                id={item?.id}
-                href={item?.href ?? "#"}
-                target={item?.href.includes("http") ? "_blank" : "_self"}
+                key={item.id}
+                id={item.id}
+                href={item.href ?? "#"}
+                target={item.href.includes("http") ? "_blank" : "_self"}
                 class={`font-normal btn btn-primary ${
                   item.outline && "btn-outline"
                 }`}
               >
-                {item?.text}
+                {item.text}
               </a>
             ))}
           </ul>

@@ -56,6 +56,10 @@
     "navigation": {
       "links": [],
       "buttons": []
+    },
+    "logo": {
+      "alt": "dwadwad",
+      "src": "aaaa"
     }
   },
   "Mobile": {
@@ -105,14 +109,28 @@
     "__resolveType": "site/sections/Footer.tsx"
   },
   "Preview /sections/Header.tsx": {
-    "__resolveType": "site/sections/Header.tsx"
+    "__resolveType": "site/sections/Header.tsx",
+    "navigation": {
+      "links": [
+        {
+          "label": "dawd",
+          "url": "awdawd"
+        }
+      ],
+      "buttons": []
+    },
+    "logo": {
+      "alt": "meio dificiol",
+      "src": "dawdaw"
+    }
   },
   "Preview /sections/Hero.tsx": {
     "__resolveType": "site/sections/Hero.tsx",
-    "title": "<p>Click here to tweak this text however you want.</p>",
+    "title": "<p><strong>Bem vindo a um teste meu.</strong></p>",
     "placement": "left",
     "cta": [],
-    "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+    "description": "Você provavelmente irá ver alguns absurdos aqui, então peço desculpas desde já, eu só fui fazendo e colocando algumas coisas só pra poder treinar",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8141/cb9d4478-9e7b-44b4-941b-01117eeb67f4"
   },
   "Preview /sections/ImageWithParagraph.tsx": {
     "__resolveType": "site/sections/ImageWithParagraph.tsx"
@@ -281,17 +299,21 @@
     "path": "/",
     "sections": [
       {
-        "__resolveType": "Header"
+        "__resolveType": "Preview /sections/Hero.tsx"
       },
       {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Olá, seja muito bem vindo ao meu primeiro teste</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-        "show": false
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
+        "__resolveType": "site/sections/Logos.tsx",
+        "logos": [
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8141/548d1897-71ce-418d-87e4-7dd1b6bf53bb",
+            "altText": "dasda"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8141/b0533b82-9735-4f81-ab29-70db1041d8ea",
+            "altText": "jujutsu kaisen"
+          }
+        ],
+        "title": "Bem vindo ao mundo absurdo da minha cabeça"
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -309,7 +331,23 @@
         ]
       },
       {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
+        "__resolveType": "site/sections/ImageWithParagraph.tsx",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8141/b0b11698-eeb1-4630-9b65-738e4e414ec6",
+        "title": "Jogo/jo",
+        "tagline": "#jjk #jujutsuKaisen #3olhos",
+        "description": "Jogo em certo momento, descobriu que ainda não era forte o suficiente, então quando ele estava se aprimorando, ele viu que conseguia soltar um poder ainda mais forte chamado Vazio Roxo, e na sua primeira vez usando esse poder, ele usou 200% de sua capacidade e assim aniquilou seu inimigo facilmente",
+        "disableSpacing": {
+          "top": true,
+          "bottom": false
+        },
+        "cta": [
+          {
+            "style": "Ghost",
+            "href": "awdsad",
+            "id": "wdsa",
+            "text": "Saiba mais"
+          }
+        ]
       },
       {
         "__resolveType": "site/sections/BlogPosts.tsx",
@@ -354,12 +392,16 @@
           {
             "network": "Instagram",
             "href": "https://www.instagram.com/leandro_albinom?igsh=MWd0NDJycTByMXMzaw=="
+          },
+          {
+            "network": "Linkedin",
+            "href": "https://www.linkedin.com/in/nocleoalbinom/"
           }
         ],
         "subscribe": {
           "title": "Para receber email com outras notícias interessantes, inscreva-se",
           "description": "Você irá receber essas e muitas outras notícias sobre o mundo Geek",
-          "instructions": ""
+          "instructions": "<p>Muito obrigado por ter visto até aqui</p>"
         },
         "logo": {
           "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8141/79b5bddd-3479-4e5b-9feb-be3d95f6e2f3"
@@ -409,5 +451,11 @@
     "theme": {
       "__resolveType": "Neutral"
     }
+  },
+  "Preview website/actions/secrets/encrypt.ts": {
+    "__resolveType": "website/actions/secrets/encrypt.ts"
+  },
+  "Preview /sections/BlogPosts.tsx": {
+    "__resolveType": "site\\sections\\BlogPosts.tsx"
   }
 }
