@@ -323,9 +323,9 @@
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
+        "title": "Jogoat",
         "placement": "right",
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8141/e717241f-46aa-4d6d-bd6f-10d2fbb420e6",
-        "title": "Jogoat",
         "tagline": "#jjk #jujutsuKaisen #ReiDasMaldições",
         "description": "Jogo (mais conhecido como Jogoat), um inimigo em Jujutsu Kaisen, é mais conhecido como o rei das maldições, ele conseguiu aniquilar facilmente satoru gojo que só é forte devido ao seu nome ter as mesmas letras de Jogo, e conseguiu derrotar sukuna facilmente com sua tecnica amaldiçoada...",
         "cta": [
@@ -342,18 +342,18 @@
         "title": "Jogo/jo",
         "tagline": "#jjk #jujutsuKaisen #3olhos",
         "description": "Jogo em certo momento, descobriu que ainda não era forte o suficiente, então quando ele estava se aprimorando, ele viu que conseguia soltar um poder ainda mais forte chamado Vazio Roxo, e na sua primeira vez usando esse poder, ele usou 200% de sua capacidade e assim aniquilou seu inimigo facilmente",
-        "disableSpacing": {
-          "top": true,
-          "bottom": false
-        },
         "cta": [
           {
             "style": "Ghost",
             "href": "awdsad",
-            "id": "wdsa",
-            "text": "Saiba mais"
+            "text": "Saiba mais",
+            "id": "wdsa"
           }
-        ]
+        ],
+        "disableSpacing": {
+          "top": true,
+          "bottom": false
+        }
       },
       {
         "__resolveType": "site/sections/BlogPosts.tsx",
@@ -385,10 +385,24 @@
         ]
       },
       {
-        "__resolveType": "site/sections/Testimonials.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
+        "__resolveType": "site/sections/Faq.tsx",
+        "description": "Perguntas frequentes",
+        "cta": {
+          "text": "Clique para ver mais perguntas",
+          "href": "asd",
+          "outline": false,
+          "id": "768"
+        },
+        "questions": [
+          {
+            "answer": "<p>Claro que sim, ele é uma maldição de um dos 4 elementos, é lógico que ele é muito forte</p>",
+            "title": "Pergunta #1 Jogo é tão forte assim?"
+          },
+          {
+            "answer": "<p>Ela talvez seja a figura mais forte de Jujutsu Kaisen (na minha opnião), pelo simples fato de poder se adaptar a tudo por conta da parte do mahoraga e ser a Rainha das maldições ao mesmo tempo, eu creio que seja a mais forte mesmo</p>",
+            "title": "Pergunta #2 Mas e a MahoRika?"
+          }
+        ]
       },
       {
         "__resolveType": "site/sections/Footer.tsx",
@@ -410,7 +424,8 @@
           "instructions": "<p>Muito obrigado por ter visto até aqui</p>"
         },
         "logo": {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8141/79b5bddd-3479-4e5b-9feb-be3d95f6e2f3"
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8141/79b5bddd-3479-4e5b-9feb-be3d95f6e2f3",
+          "alt": "Hakari"
         },
         "madeWith": {
           "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8141/557d50f0-2c17-4d55-bfbc-910c01a8bfe8",
@@ -461,6 +476,13 @@
     "firstByteThresholdMS": false,
     "theme": {
       "__resolveType": "Neutral"
+    }
+  },
+  "Preview site/sections/Header.tsx": {
+    "__resolveType": "site/sections/Header.tsx",
+    "navigation": {
+      "links": [],
+      "buttons": []
     }
   }
 }
