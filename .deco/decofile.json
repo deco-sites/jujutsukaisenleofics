@@ -102,6 +102,9 @@
       ]
     }
   },
+  "Preview /sections/BlogPosts.tsx": {
+    "__resolveType": "site\\sections\\BlogPosts.tsx"
+  },
   "Preview /sections/Faq.tsx": {
     "__resolveType": "site/sections/Faq.tsx"
   },
@@ -147,6 +150,9 @@
   },
   "Preview site/sections/ImageWithParagraph.tsx": {
     "__resolveType": "site/sections/ImageWithParagraph.tsx"
+  },
+  "Preview website/actions/secrets/encrypt.ts": {
+    "__resolveType": "website/actions/secrets/encrypt.ts"
   },
   "Serene Coastline": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
@@ -421,14 +427,15 @@
   "site": {
     "seo": {
       "type": "website",
-      "title": "Landing",
       "jsonLDs": [],
-      "noIndexing": false,
-      "description": "Improve your page performance with deco.cx",
-      "titleTemplate": "Landing | deco.cx",
-      "descriptionTemplate": "%s | Deco.cx",
+      "noIndexing": true,
+      "titleTemplate": "Jujutsu Leo Kaisen",
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/f5603dbc-ee36-4864-aaf3-ea52b257d5b2",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/9c94b074-ae4d-4b63-a20b-7d48ce69971a"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8141/b81150a2-bf29-4e32-a254-d8e17fab88d0",
+      "themeColor": "black",
+      "title": "Jujutsu leandro",
+      "description": "Improve your page performance with deco.cx",
+      "descriptionTemplate": "%s | Leleo"
     },
     "global": [
       {
@@ -451,11 +458,5 @@
     "theme": {
       "__resolveType": "Neutral"
     }
-  },
-  "Preview website/actions/secrets/encrypt.ts": {
-    "__resolveType": "website/actions/secrets/encrypt.ts"
-  },
-  "Preview /sections/BlogPosts.tsx": {
-    "__resolveType": "site\\sections\\BlogPosts.tsx"
   }
 }
